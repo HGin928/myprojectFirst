@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MusicPlayer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<video id="video1" class="video1" autoplay loop muted>
+		<source id="source1" src="source/background.mp4" type="video/mp4" />
+	</video>
+	<!--音乐播放器-->
+	<div class="musicPlayer">
+	    <audio src="#" id="music"></audio>
+	    <div class="musimg">
+	        <div class="musicImg" id="musicImg">
+	            <img class="musicpic" id="musicpic" src="source/logo1.png" style="width: 150px;height: 150px;">
+	        </div>
+	        <div class="musiclist">歌曲列表</div>
+	        <div class="songsss">
+	        	<div class="music1" id="music1">1.Last Dance-伍佰&amp;China_Bule</div>
+	        	<div class="music2" id="music2">2.光辉岁月-beyond</div>
+				<div class="music3" id="music3">3.四季不败-郝云</div>
+				<div class="music4" id="music4">4.处处吻(男生版)-罗隽永</div>
+	        </div>
+	        <div class="musicName">
+	            <h1 id="sName">歌曲名称</h1>
+	            <h2 id="singer">歌手</h2>
+	        </div>
+	    </div>
+	    <div class="jdt">
+	        <span class="leftTime" id="jdtLeft">00:00</span>
+	        <span class="jdtg" id="jdtg">/</span>
+	        <span class="rightTime" id="jdtRight">00:00</span>
+	        <div class="jdt_1" id="gequJDBar">
+	            <div class="jdt_color" id="gequjd"></div>
+	        </div>
+	        <div class="ctrls" id="ctrls">
+	            <span class="preBtn" id="preBtn"><img src="source/back.png" title="上一首"></span>
+	            <span class="playBtn"><img id="playBtn" src="source/play.png" title="播放"></span>
+	            <span class="nextBtn" id="nextBtn"><img src="source/next.png" title="下一首"></span>
+	            <!-- <span class="loopBtn" id="loopBtn"><img src="source/loop.png" title="单曲循环"></span> -->
+	            <span class="soundimg" id="soundimg"><img src="source/sound.png"></span>
+	            <div class="vol" id="volJd">
+	                <div class="vol_color" id="volColor"></div>
+	                <div class="vol_blok" id="volBlok"></div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<!--音乐播放器-End-->
+	<script src="index.js"></script>
+</body>
+</html>
